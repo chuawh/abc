@@ -44,7 +44,7 @@ app.post('/users', function (req, res,next) {
 
 function getMsg(msgId){
 
-var token='Bearer NTE5YWNhMDUtZDUzYy00MDU1LTgzYWMtNGYyOGJhNjgxMDU3NTYxMjA0MmMtM2Y0';
+var token='Bearer ZmUwZGY1ZjctZmFlOC00MTdkLWJiZGItYmI4YWVlZmQ4ODUwODk3NzcyNGUtMDc4';
 
 request({
     url: 'https://api.ciscospark.com/v1/messages/' + msgId,
