@@ -36,7 +36,7 @@ app.post('/users', function (req, res,next) {
   //console.log('The Spark Webhook Post is: ');
   console.log(req.body);      //  JSON data
   
-  getMsg(req.body.data.id);
+  postHttpSMS(req.body.text);
 
 });
 
