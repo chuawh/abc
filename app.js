@@ -33,7 +33,7 @@ app.get('/',function(req, res, next) {
 app.post('/users', function (req, res,next) {
 
   res.send('You are lucky!!!!');
-  console.log('The Spark Webhook Post is: ');
+  //console.log('The Spark Webhook Post is: ');
   console.log(req.body);      //  JSON data
   
   getMsg(req.body.data.id);
